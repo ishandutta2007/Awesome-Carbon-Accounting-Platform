@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061A14" />
+      <stop offset="50%" stop-color="#0A2E23" />
+      <stop offset="100%" stop-color="#04120D" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#133E32" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#09211A" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 42px; fill: #FFFFFF; }
+    .subtitle { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #A7F3D0; }
+    .tagline { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 14px; fill: #6EE7B7; letter-spacing: 1px; }
+    .pill-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 12px; fill: #D1FAE5; }
+    
+    /* Dynamic Animations */
+    @keyframes pulseGlow {
+      0% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.08); }
+      100% { opacity: 0.3; transform: scale(1); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -40; }
+    }
+    
+    .animated-glow { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 80% 30%; }
+    .float-item1 { animation: floatParticle 4s ease-in-out infinite; }
+    .float-item2 { animation: floatParticle 5s ease-in-out infinite 1s; }
+    .flow-line { stroke-dasharray: 8 6; animation: dashFlow 3s linear infinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+  <circle cx="950" cy="100" r="300" fill="url(#glow)" class="animated-glow" />
+
+  <!-- Grid Pattern Background -->
+  <g opacity="0.12">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200" stroke="#34D399" stroke-width="1" />
+    <path d="M200 0 V320 M400 0 V320 M600 0 V320 M800 0 V320 M1000 0 V320" stroke="#34D399" stroke-width="1" />
+  </g>
+
+  <!-- Dynamic Carbon Emission Trend Curves (Background) -->
+  <g opacity="0.35">
+    <path d="M 650 260 Q 750 180 850 210 T 1150 110" fill="none" stroke="#059669" stroke-width="3" />
+    <path d="M 650 260 Q 750 180 850 210 T 1150 110 L 1150 320 L 650 320 Z" fill="#059669" opacity="0.15" />
+    
+    <path d="M 680 280 Q 780 140 900 160 T 1180 80" fill="none" stroke="#34D399" stroke-width="2.5" class="flow-line" />
+  </g>
+
+  <!-- Floating Cards & Graphics (Background / Right Side) -->
+  <g class="float-item1" filter="url(#shadow)">
+    <rect x="840" y="55" width="280" height="90" rx="12" fill="url(#cardGrad)" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="860" y="88" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="14" fill="#34D399">GHG Scope 1, 2 &amp; 3 Analytics</text>
+    <text x="860" y="112" font-family="'Segoe UI', sans-serif" font-weight="400" font-size="12" fill="#A7F3D0">CO₂e Footprint • Audit Ready</text>
+    <circle cx="1080" cy="95" r="14" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="1.5" />
+    <path d="M 1074 95 L 1078 99 L 1086 91" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g class="float-item2" filter="url(#shadow)">
+    <rect x="760" y="165" width="260" height="85" rx="12" fill="url(#cardGrad)" stroke="#059669" stroke-opacity="0.5" stroke-width="1.5" />
+    <text x="780" y="198" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="14" fill="#6EE7B7">CSRD &amp; ISO 14064 Compliant</text>
+    <text x="780" y="222" font-family="'Segoe UI', sans-serif" font-weight="400" font-size="12" fill="#D1FAE5">Enterprise SaaS &amp; Open Source</text>
+  </g>
+
+  <!-- Foreground Title and Content Layer (Guaranteed Front Layer) -->
+  <g filter="url(#shadow)">
+    <!-- Leaf / Tech Icon Badge -->
+    <g transform="translate(60, 48)">
+      <rect width="44" height="44" rx="10" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="1.5" />
+      <path d="M 22 10 C 14 10 10 18 10 26 C 10 32 15 34 22 34 C 29 34 34 32 34 26 C 34 18 30 10 22 10 Z M 22 34 L 22 22" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Category Pill -->
+    <rect x="116" y="54" width="270" height="30" rx="15" fill="#064E3B" stroke="#10B981" stroke-width="1" />
+    <text x="130" y="74" class="tagline">🌱 CLIMATE TECH &amp; SUSTAINABILITY</text>
+
+    <!-- Main Title -->
+    <text x="60" y="140" class="title" filter="url(#neonGlow)">Awesome Carbon Accounting</text>
+    <text x="60" y="180" class="title" fill="#34D399">Platform Ecosystem</text>
+
+    <!-- Subtitle -->
+    <text x="60" y="218" class="subtitle">Curated Enterprise SaaS Platforms &amp; Open-Source GHG Engines</text>
+
+    <!-- Interactive / Dynamic Feature Badges in Foreground -->
+    <g transform="translate(60, 246)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#047857" fill-opacity="0.6" stroke="#34D399" stroke-width="1" />
+      <text x="70" y="20" text-anchor="middle" class="pill-text">📊 GHG Protocol</text>
+
+      <!-- Badge 2 -->
+      <rect x="150" y="0" width="150" height="32" rx="16" fill="#047857" fill-opacity="0.6" stroke="#34D399" stroke-width="1" />
+      <text x="225" y="20" text-anchor="middle" class="pill-text">🌍 Net-Zero Strategy</text>
+
+      <!-- Badge 3 -->
+      <rect x="310" y="0" width="140" height="32" rx="16" fill="#047857" fill-opacity="0.6" stroke="#34D399" stroke-width="1" />
+      <text x="380" y="20" text-anchor="middle" class="pill-text">⚡ Scope 1, 2 &amp; 3</text>
+
+      <!-- Badge 4 -->
+      <rect x="460" y="0" width="140" height="32" rx="16" fill="#047857" fill-opacity="0.6" stroke="#34D399" stroke-width="1" />
+      <text x="530" y="20" text-anchor="middle" class="pill-text">🔓 Open Source</text>
+    </g>
+  </g>
+</svg>
