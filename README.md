@@ -64,60 +64,60 @@ These platforms empower enterprise sustainability managers, ESG analysts, carbon
 
 ## 🔓 Open-Source GitHub Projects
 
-*Open-source engines provide transparent calculation logic, local-first data processing, custom emission factor mapping, and specialized carbon accounting frameworks. Sorted descending by GitHub star count.*
+*Open-source engines provide transparent calculation logic, local-first data processing, custom emission factor mapping, and specialized carbon accounting frameworks. Sorted descending by GitHub Stars_Count.*
 
-- **[CodeCarbon](https://github.com/mlco2/codecarbon)** [![GitHub stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=social&color=white)](https://github.com/mlco2/codecarbon/stargazers) — **1,923 ⭐**  
+- **[CodeCarbon](https://github.com/mlco2/codecarbon)** [![GitHub_Stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=social&color=white)](https://github.com/mlco2/codecarbon/stargazers) — **1,923 ⭐**  
   *Python package for tracking & estimating CO₂ emissions produced by compute infrastructure, cloud instances, and machine learning model training workloads.*
 
-- **[Cloud Carbon Footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint)** [![GitHub stars](https://img.shields.io/github/stars/cloud-carbon-footprint/cloud-carbon-footprint?style=social&color=white)](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/stargazers) — **1,052 ⭐**  
+- **[Cloud Carbon Footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-carbon-footprint/cloud-carbon-footprint?style=social&color=white)](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/stargazers) — **1,052 ⭐**  
   *Open-source multi-cloud framework to measure, track, and visualize energy consumption and CO₂e emissions across AWS, Google Cloud, and Microsoft Azure.*
 
-- **[PUDL (Public Utility Data Liberation)](https://github.com/catalyst-cooperative/pudl)** [![GitHub stars](https://img.shields.io/github/stars/catalyst-cooperative/pudl?style=social&color=white)](https://github.com/catalyst-cooperative/pudl/stargazers) — **610 ⭐**  
+- **[PUDL (Public Utility Data Liberation)](https://github.com/catalyst-cooperative/pudl)** [![GitHub_Stars](https://img.shields.io/github/stars/catalyst-cooperative/pudl?style=social&color=white)](https://github.com/catalyst-cooperative/pudl/stargazers) — **610 ⭐**  
   *Open data pipeline liberating energy system data, US utility statistics, and hourly grid emissions metrics for climate advocacy, research, and accounting.*
 
-- **[CO2.js](https://github.com/thegreenwebfoundation/co2.js)** [![GitHub stars](https://img.shields.io/github/stars/thegreenwebfoundation/co2.js?style=social&color=white)](https://github.com/thegreenwebfoundation/co2.js/stargazers) — **497 ⭐**  
+- **[CO2.js](https://github.com/thegreenwebfoundation/co2.js)** [![GitHub_Stars](https://img.shields.io/github/stars/thegreenwebfoundation/co2.js?style=social&color=white)](https://github.com/thegreenwebfoundation/co2.js/stargazers) — **497 ⭐**  
   *JavaScript library from The Green Web Foundation to calculate digital carbon footprints of websites, microservices, and apps using Sustainable Web Design Models (SWDM).*
 
-- **[CarbonTracker](https://github.com/saintslab/carbontracker)** [![GitHub stars](https://img.shields.io/github/stars/saintslab/carbontracker?style=social&color=white)](https://github.com/saintslab/carbontracker/stargazers) — **483 ⭐**  
+- **[CarbonTracker](https://github.com/saintslab/carbontracker)** [![GitHub_Stars](https://img.shields.io/github/stars/saintslab/carbontracker?style=social&color=white)](https://github.com/saintslab/carbontracker/stargazers) — **483 ⭐**  
   *Python framework to monitor, predict, and log energy consumption and carbon footprints during machine learning model training sessions.*
 
-- **[Eco2AI](https://github.com/sb-ai-lab/Eco2AI)** [![GitHub stars](https://img.shields.io/github/stars/sb-ai-lab/Eco2AI?style=social&color=white)](https://github.com/sb-ai-lab/Eco2AI/stargazers) — **280 ⭐**  
+- **[Eco2AI](https://github.com/sb-ai-lab/Eco2AI)** [![GitHub_Stars](https://img.shields.io/github/stars/sb-ai-lab/Eco2AI?style=social&color=white)](https://github.com/sb-ai-lab/Eco2AI/stargazers) — **280 ⭐**  
   *Python library tracking power consumption, equivalent CO₂ emissions, and regional electric grid carbon intensity during program execution.*
 
-- **[ecoCode](https://github.com/green-code-initiative/ecoCode)** [![GitHub stars](https://img.shields.io/github/stars/green-code-initiative/ecoCode?style=social&color=white)](https://github.com/green-code-initiative/ecoCode/stargazers) — **216 ⭐**  
+- **[ecoCode](https://github.com/green-code-initiative/ecoCode)** [![GitHub_Stars](https://img.shields.io/github/stars/green-code-initiative/ecoCode?style=social&color=white)](https://github.com/green-code-initiative/ecoCode/stargazers) — **216 ⭐**  
   *SonarQube static analysis plugin designed to reduce software energy usage and carbon footprint by identifying inefficient code structures in Java, Mobile, and Web projects.*
 
-- **[Open Grid Emissions](https://github.com/singularity-energy/open-grid-emissions)** [![GitHub stars](https://img.shields.io/github/stars/singularity-energy/open-grid-emissions?style=social&color=white)](https://github.com/singularity-energy/open-grid-emissions/stargazers) — **93 ⭐**  
+- **[Open Grid Emissions](https://github.com/singularity-energy/open-grid-emissions)** [![GitHub_Stars](https://img.shields.io/github/stars/singularity-energy/open-grid-emissions?style=social&color=white)](https://github.com/singularity-energy/open-grid-emissions/stargazers) — **93 ⭐**  
   *High-quality hourly power generation and Scope 2 electric grid emissions data processing pipeline for US power regions by Singularity Energy.*
 
-- **[WRI Carbon Budget](https://github.com/wri/carbon-budget)** [![GitHub stars](https://img.shields.io/github/stars/wri/carbon-budget?style=social&color=white)](https://github.com/wri/carbon-budget/stargazers) — **88 ⭐**  
+- **[WRI Carbon Budget](https://github.com/wri/carbon-budget)** [![GitHub_Stars](https://img.shields.io/github/stars/wri/carbon-budget?style=social&color=white)](https://github.com/wri/carbon-budget/stargazers) — **88 ⭐**  
   *World Resources Institute (WRI) spatial accounting tool calculating global forest carbon sequestration removals, gross GHG emissions, and net land flux.*
 
-- **[OS-Climate PhysRisk](https://github.com/OS-Climate/physrisk)** [![GitHub stars](https://img.shields.io/github/stars/OS-Climate/physrisk?style=social&color=white)](https://github.com/OS-Climate/physrisk/stargazers) — **69 ⭐**  
+- **[OS-Climate PhysRisk](https://github.com/OS-Climate/physrisk)** [![GitHub_Stars](https://img.shields.io/github/stars/OS-Climate/physrisk?style=social&color=white)](https://github.com/OS-Climate/physrisk/stargazers) — **69 ⭐**  
   *Microservice engine for climate physical risk modeling, asset hazard vulnerability assessment, and financial climate risk accounting.*
 
-- **[CityCatalyst](https://github.com/Open-Earth-Foundation/CityCatalyst)** [![GitHub stars](https://img.shields.io/github/stars/Open-Earth-Foundation/CityCatalyst?style=social&color=white)](https://github.com/Open-Earth-Foundation/CityCatalyst/stargazers) — **44 ⭐**  
+- **[CityCatalyst](https://github.com/Open-Earth-Foundation/CityCatalyst)** [![GitHub_Stars](https://img.shields.io/github/stars/Open-Earth-Foundation/CityCatalyst?style=social&color=white)](https://github.com/Open-Earth-Foundation/CityCatalyst/stargazers) — **44 ⭐**  
   *Open-source municipal carbon accounting platform for urban climate action planning, developed by Open Earth Foundation.*
 
-- **[e-footprint](https://github.com/Boavizta/e-footprint)** [![GitHub stars](https://img.shields.io/github/stars/Boavizta/e-footprint?style=social&color=white)](https://github.com/Boavizta/e-footprint/stargazers) — **19 ⭐**  
+- **[e-footprint](https://github.com/Boavizta/e-footprint)** [![GitHub_Stars](https://img.shields.io/github/stars/Boavizta/e-footprint?style=social&color=white)](https://github.com/Boavizta/e-footprint/stargazers) — **19 ⭐**  
   *Open-source python toolkit for modeling full lifecycle environmental impact and LCA carbon emissions across servers, hardware, storage, and networking devices.*
 
-- **[EPFL CO₂ Calculator](https://github.com/epfl-enac/co2-calculator)** [![GitHub stars](https://img.shields.io/github/stars/epfl-enac/co2-calculator?style=social&color=white)](https://github.com/epfl-enac/co2-calculator/stargazers) — **6 ⭐**  
+- **[EPFL CO₂ Calculator](https://github.com/epfl-enac/co2-calculator)** [![GitHub_Stars](https://img.shields.io/github/stars/epfl-enac/co2-calculator?style=social&color=white)](https://github.com/epfl-enac/co2-calculator/stargazers) — **6 ⭐**  
   *GHG Protocol compliant carbon footprint calculation web tool developed at EPFL for institutional, academic, and lab carbon accounting.*
 
-- **[CarbonInk](https://github.com/lxzxl/carbonink)** [![GitHub stars](https://img.shields.io/github/stars/lxzxl/carbonink?style=social&color=white)](https://github.com/lxzxl/carbonink/stargazers) — **3 ⭐**  
+- **[CarbonInk](https://github.com/lxzxl/carbonink)** [![GitHub_Stars](https://img.shields.io/github/stars/lxzxl/carbonink?style=social&color=white)](https://github.com/lxzxl/carbonink/stargazers) — **3 ⭐**  
   *Desktop local-first ISO 14064-1 GHG inventory application (macOS/Windows) with offline AI receipt/bill document extraction and built-in MCP server.*
 
-- **[beru](https://github.com/rmrt1n/beru)** [![GitHub stars](https://img.shields.io/github/stars/rmrt1n/beru?style=social&color=white)](https://github.com/rmrt1n/beru/stargazers) — **2 ⭐**  
+- **[beru](https://github.com/rmrt1n/beru)** [![GitHub_Stars](https://img.shields.io/github/stars/rmrt1n/beru?style=social&color=white)](https://github.com/rmrt1n/beru/stargazers) — **2 ⭐**  
   *Lightweight Svelte-based corporate carbon accounting web app implementing the financial e-liability GHG accounting methodology.*
 
-- **[carbonpredict](https://github.com/david-leake/carbonpredict)** [![GitHub stars](https://img.shields.io/github/stars/david-leake/carbonpredict?style=social&color=white)](https://github.com/david-leake/carbonpredict/stargazers) — **1 ⭐**  
+- **[carbonpredict](https://github.com/david-leake/carbonpredict)** [![GitHub_Stars](https://img.shields.io/github/stars/david-leake/carbonpredict?style=social&color=white)](https://github.com/david-leake/carbonpredict/stargazers) — **1 ⭐**  
   *R package (CRAN) predicting Scope 1, 2, and 3 carbon emissions for UK SMEs using Standard Industrial Classification (SIC) codes and annual revenue data.*
 
-- **[GreenOps](https://github.com/cherryaugusta/greenops-carbon-accounting-platform)** [![GitHub stars](https://img.shields.io/github/stars/cherryaugusta/greenops-carbon-accounting-platform?style=social&color=white)](https://github.com/cherryaugusta/greenops-carbon-accounting-platform/stargazers) — **0 ⭐**  
+- **[GreenOps](https://github.com/cherryaugusta/greenops-carbon-accounting-platform)** [![GitHub_Stars](https://img.shields.io/github/stars/cherryaugusta/greenops-carbon-accounting-platform?style=social&color=white)](https://github.com/cherryaugusta/greenops-carbon-accounting-platform/stargazers) — **0 ⭐**  
   *Full-stack Django & React ESG platform with travel and energy tracking, audit history, drag-and-drop report builder, and Docker Compose setup.*
 
-- **[OpenGHG](https://github.com/mindsongreen/OpenGHG)** [![GitHub stars](https://img.shields.io/github/stars/mindsongreen/OpenGHG?style=social&color=white)](https://github.com/mindsongreen/OpenGHG/stargazers) — **0 ⭐**  
+- **[OpenGHG](https://github.com/mindsongreen/OpenGHG)** [![GitHub_Stars](https://img.shields.io/github/stars/mindsongreen/OpenGHG?style=social&color=white)](https://github.com/mindsongreen/OpenGHG/stargazers) — **0 ⭐**  
   *Transparent PHP & PostgreSQL carbon footprint calculator featuring federated data architecture, explicit unit algebra, and formula auditability.*
 
 ---
@@ -140,7 +140,7 @@ Contributions are highly appreciated! To submit a new SaaS platform or open-sour
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Update** entries in `README.md` following the established table / list format.
-3. 🔗 Include exact project name, link, factual description, starting price / star count, and category.
+3. 🔗 Include exact project name, link, factual description, starting price / Stars_Count, and category.
 4. 🚀 **Open a Pull Request** with a brief summary of the added project.
 
 ---
